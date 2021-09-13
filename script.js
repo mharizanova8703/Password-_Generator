@@ -30,6 +30,12 @@ console.log('little numbers confirm', littleLetter)
     var bigLetter = window.confirm(
       'Would you like uppercase letters in your password?',
     )
+     var num = window.confirm('Would you like numbers in your password?')
+
+    var specialCharacterConfirm = window.confirm(
+      'Would you like special characters in your password?',
+    )
+
 
   var password = generatePassword()
   var passwordText = document.querySelector('#password')
