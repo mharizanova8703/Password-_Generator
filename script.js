@@ -25,17 +25,17 @@ function writePassword() {
     var littleLetter = window.confirm(
       'Would you like lowercase letters in your password?',
     )
-console.log('little numbers confirm', littleLetter)
+    console.log('little numbers confirm', littleLetter)
 
     var bigLetter = window.confirm(
       'Would you like uppercase letters in your password?',
     )
-     var num = window.confirm('Would you like numbers in your password?')
+    var num = window.confirm('Would you like numbers in your password?')
 
     var specialCharacterConfirm = window.confirm(
       'Would you like special characters in your password?',
     )
-if (littleLetter === true) {
+    if (littleLetter === true) {
       userChoices += lowerCase
     }
 
@@ -52,12 +52,18 @@ if (littleLetter === true) {
     }
 
     console.log('user choices', userChoices)
+    var characters = ''
+    for (var i = 0; i < passwordLength; i++) {
+      var password = Math.floor(userChoices.length * Math.random())
 
+      characters += userChoices.charAt(password)
+      console.log('password', password)
+    }
 
-  var password = generatePassword()
-  var passwordText = document.querySelector('#password')
+    var passwordText = document.querySelector('#password')
 
-  passwordText.value = password
+    passwordText.value = characters
+  }
 }
 
 // Add event listener to generate button
