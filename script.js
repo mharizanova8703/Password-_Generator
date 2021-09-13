@@ -25,7 +25,11 @@ function writePassword() {
     var littleLetter = window.confirm(
       'Would you like lowercase letters in your password?',
     )
+console.log('little numbers confirm', littleLetter)
 
+    var bigLetter = window.confirm(
+      'Would you like uppercase letters in your password?',
+    )
 
   var password = generatePassword()
   var passwordText = document.querySelector('#password')
