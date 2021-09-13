@@ -18,6 +18,14 @@ function writePassword() {
   )
 
   console.log('password length', passwordLength)
+  if (passwordLength < 8 || passwordLength > 128) {
+    alert('Please choose a number between 8 and 128')
+    return
+  } else {
+    var littleLetter = window.confirm(
+      'Would you like lowercase letters in your password?',
+    )
+
 
   var password = generatePassword()
   var passwordText = document.querySelector('#password')
