@@ -35,6 +35,23 @@ console.log('little numbers confirm', littleLetter)
     var specialCharacterConfirm = window.confirm(
       'Would you like special characters in your password?',
     )
+if (littleLetter === true) {
+      userChoices += lowerCase
+    }
+
+    if (bigLetter === true) {
+      userChoices += upperCase
+    }
+
+    if (num === true) {
+      userChoices += numbers
+    }
+
+    if (specialCharacterConfirm === true) {
+      userChoices += specialChar
+    }
+
+    console.log('user choices', userChoices)
 
 
   var password = generatePassword()
