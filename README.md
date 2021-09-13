@@ -11,4 +11,5 @@
  4. Do not use postcodes, house numbers, phone numbers, birthdates, ID card numbers, social security numbers, and so on in your passwords.
  5. Do not use any dictionary word in your passwords. Examples of strong passwords: ePYHc~dS*)8$+V-' , qzRtC{6rXN3N\RgL , zbfUMZPE6`FC%)sZ. Examples of weak passwords: qwert12345, Gbt3fC79ZmMEFUFJ, 1234567890, 987654321, nortonpassword.
  
+<img width="1363" alt="Screen Shot 2021-09-13 at 4 16 12 PM" src="https://user-images.githubusercontent.com/85656320/133150499-97da2315-16c6-4db4-a0ef-597f27545f0b.png">
 
